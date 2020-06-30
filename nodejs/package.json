@@ -1,0 +1,14 @@
+{
+  "name": "cis-225-demo",
+  "version": "0.1.0",
+  "description": "This is just an example.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "Chad R. Banks",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.27.0"
+  }
+}
