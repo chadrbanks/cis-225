@@ -1,5 +1,7 @@
 import React from "react";
 
+
+
 function Aboutpage(props) {
   console.log("Aboutpage props:", props);
 
@@ -10,6 +12,8 @@ function Aboutpage(props) {
   return (
     <div style={{ display: disp }}>
       <h1>Aboutpage</h1>
+
+      
     </div>
   );
 }

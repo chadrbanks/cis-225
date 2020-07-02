@@ -18,6 +18,40 @@ export default class ClassExample extends React.Component {
     this.setState({page: 'about'});
   }
 
+  state = {
+    email: "",
+    password: "",
+    error: "",
+    person: {},
+  };
+
+  func1 = (event) => {
+
+  };
+  func2 = (event) => {
+
+  };
+  func3 = (event) => {
+
+  };
+
+  handleEmailChange = (event) => {
+    this.func1(event);
+    this.func2(event);
+    this.func3(event);
+    // VALIDATE HERE
+    this.setState({ email: event.target.value });
+  };
+  handlePasswordChange = (event) => {
+    this.setState({ password: event.target.value });
+  };
+
+  handleSubmit = async (event) => {
+
+    // SUBMIT 
+  };
+
+
   render() {
     let cars = "";
 
@@ -36,6 +70,17 @@ export default class ClassExample extends React.Component {
 
         <Homepage data={{ page: this.state.page, update: this.updatePage }} />
         <Aboutpage data={{ page: this.state.page, update: this.updatePage }} />
+
+        <input
+              type="email"
+              name="email"
+              id="inputEmail"
+              class="form-control"
+              placeholder="Email address"
+              required=""
+              autofocus=""
+              onChange={this.handleEmailChange}
+            />
       </div>
     );
   }
