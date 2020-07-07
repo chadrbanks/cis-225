@@ -1,0 +1,15 @@
+{
+  "name": "node-box",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "CIS-225",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.27.0",
+    "yargs": "^15.4.0"
+  }
+}
