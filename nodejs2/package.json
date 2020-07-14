@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "moment": "^2.27.0",
+    "prompt-sync": "^4.2.0",
     "yargs": "^15.4.0"
   }
 }

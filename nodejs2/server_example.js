@@ -4,7 +4,7 @@ const hostname = "127.0.0.1";
 const port = 3000;
 
 let callback = (req, res) => {
-  let site_manager = require('./site_content');
+  let site_manager = require("./site_content");
 
   res.statusCode = 200;
   res.setHeader("Content-Type", "text/html");
